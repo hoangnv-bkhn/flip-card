@@ -1,0 +1,33 @@
+.token {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+body {
+    background-color: #ccc;
+}
+
+#root {
+    /* background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%); */
+    height: 100vh;
+    padding-top: 1px;
+
+}
+
+img {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #92a8d1;
+}
+
+.puzzle {
+    width: 416px;
+}
+
+.unlock-img {
+    filter: hue-rotate(180deg);
+}
